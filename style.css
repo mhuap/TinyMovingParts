@@ -1,0 +1,239 @@
+iframe{
+  display: block;
+}
+
+.affix{
+  top: 0px;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title .parallax{
+    background-image: url("./images/band/Punktastic/edited/Tiny-Moving-Parts-2.jpg");
+    min-height: 500px;
+}
+
+.tour-row.parallax {
+  background-image: url("./images/band/Punktastic/edited/Tiny-Moving-Parts-3.jpg");
+}
+
+.album {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/cover2.jpg");
+  margin-bottom: 100px;
+}
+
+.last {
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: white;
+  background-image: url("./images/band/Punktastic/edited/Tiny-Moving-Parts-4.jpg");
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-position: top;
+}
+
+.new-album {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.more-music .header {
+  color: white !important;
+}
+
+.more-music {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 2s;
+  white-space: nowrap;
+  transition: .3s;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.more-music:after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  border-bottom: 10px solid white;
+  transition: border-bottom 0s, width 1s;
+}
+
+.more-music:hover:after{
+  border-bottom: 10px solid white;
+  width: 100%;
+}
+
+.album-cover{
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+.v-center{
+  display: flex;
+  align-items: center;
+}
+
+.video{
+  border: solid 5px white;
+}
+
+.video-row{
+  margin-bottom: 20px;
+}
+
+.img-center{
+  margin-bottom: 10px;
+  background-color: #ffcc00;
+}
+
+a.button{
+  display: inline-block;
+  width: 80%;
+  height:50px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-decoration: none !important;
+  color: white !important;
+  border-radius: 5px;
+  border: solid 5px white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  white-space: nowrap;
+}
+
+.button-icon{
+  vertical-align: top;
+  padding: 5px;
+  height: 40px;
+}
+
+p.tour{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 200px;
+  text-indent: 0px !important;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  line-height: 80%;
+}
+
+.tour-row {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.row.no-pad{
+  margin-left: 0;
+  margin-right: 0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+body {
+  color: black;
+  text-indent: 10%;
+}
+
+#tour {
+  text-indent: 0px;
+}
+
+#music {
+  margin-left: 8%;
+  width: 100%;
+}
+
+.bandcamp {
+    height: 300px;
+    border: solid 5px white;
+}
+
+.info{
+  display: inherit;
+}
+
+.strip{
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 2s;
+  white-space: nowrap;
+  transition: .3s;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.header {
+  color: black !important;
+  text-decoration: none !important;
+  display: block;
+  margin-top: 20px;
+  line-height: 50%;
+  margin-bottom: 20px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.strip:after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  border-bottom: 10px solid black;
+  transition: border-bottom 0s, width 1s;
+}
+
+.strip:hover:after{
+  border-bottom: 10px solid black;
+  width: 100%;
+}
+
+.col-sm-3{
+  text-align: center;
+  text-indent: 0px;
+}
+
+.social {
+  font-size: 30px;
+  text-indent: none !important;
+  margin: 20px 20px 20px 0px;
+}
+
+.fa {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none !important;
+  text-indent: 0px !important;
+  background-color: black;
+  color: white !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
