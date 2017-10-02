@@ -102,7 +102,7 @@ iframe{
 
 a.button{
   display: inline-block;
-  width: 80%;
+  width: 90%;
   height:50px;
   line-height: 40px;
   vertical-align: middle;
@@ -160,6 +160,7 @@ body {
 #music {
   margin-left: 8%;
   width: 100%;
+  padding-top: 5px;
 }
 
 .bandcamp {
